@@ -4,7 +4,7 @@ import serial
 import time
 
 holder = "09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C 09 00 2E 00 3B 3B 3B 3B 0D 3C"
-
+#TEST
 def repeats(string):
     for x in range(1, len(string)):
         substring = string[:x]
